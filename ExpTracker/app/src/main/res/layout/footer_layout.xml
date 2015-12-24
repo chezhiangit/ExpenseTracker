@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_alignParentBottom="true"
+    android:drawable="@android:color/primary_text_dark"
+    android:id="@+id/footer"
+    android:background="@drawable/background_border">
+
+    <TextView
+        android:id="@+id/TotalExpLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Total Exp:"
+        android:textSize="15sp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:id="@+id/TotalExpAmt"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15sp"
+        android:text="0"
+        android:layout_toRightOf="@+id/TotalExpLabel"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:id="@+id/BalAmtLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Balance Amt:"
+        android:textSize="15sp"
+        android:layout_toLeftOf="@+id/BalAmt"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:id="@+id/BalAmt"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15sp"
+        android:text="0"
+        android:layout_alignParentRight="true"
+        android:paddingRight="2dp"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

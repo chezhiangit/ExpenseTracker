@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".LoginActivity">
+
+    <EditText android:id="@+id/auth_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter Authentication Code"
+        android:layout_centerVertical="true"
+        android:maxLength="5"/>
+    <Button android:id="@+id/goButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        android:layout_below="@+id/auth_code"
+        android:paddingTop="5dp"
+        android:onClick="onGoButtonClick"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="10dp"
+    android:clickable="true"
+    android:onClick="onCreateAccessCode"
+    android:gravity="center"
+    android:textColor="@color/colorPrimaryDark"
+    android:text="@string/createAccessCode"/>
+</RelativeLayout>

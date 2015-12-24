@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ExpTracker</string>
+    <string name="account_page_title">Accounts Page</string>
+    <string name="login_title">Expense Manager</string>
+    <string name="newAccountLabel">Enter New Account Name:</string>
+    <string name="expNameLabel">Expense Name:</string>
+    <string name="expAmtLabel">Expense Amount:</string>
+    <string name="alert_dialog_text_entry">Create New Account</string>
+    <string name="alert_dialog_create_expense">Create New Expense</string>
+    <string name="account_dialog_ok">OK</string>
+    <string name="account_dialog_cancel">CANCEL</string>
+    <string name="exp_dialog_cancel">CANCEL</string>
+    <string name="exp_dialog_ok">OK</string>
+    <string name="exp_dialog_title">Create Expense</string>
+    <string name="title_activity_month__view">Month View</string>
+    <string name="cal_desc">Expense Date</string>
+    <string name="createAccessCode">Click here to create new access code</string>
+    <string name="newUserAccessCode">Enter Access Code</string>
+    <string name="newUserName">Enter Your Name</string>
+    <string name="new_user_dialog_title">Create New user</string>
+
+</resources>
